@@ -1,0 +1,28 @@
+{
+  "type": "commonjs",
+  "name": "index.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "AmirBiglari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql-ssh": "^1.0.6",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "request": "^2.88.2",
+    "socket.io": "^3.0.4",
+    "ssh2": "^0.8.9",
+    "stripe": "^8.137.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
