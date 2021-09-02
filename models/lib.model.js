@@ -13,7 +13,7 @@ const Customer = function(customer) {
 Customer.getAll = result => {
   sql.then((connection)=>{
         // query database 
-        connection.query("SELECT * FROM rfq_backoffice13_prod.products limit 200", (error, res) => {
+        connection.query("SELECT * FROM rfq_backoffice13_prod.products order by code_grupo, created_date DESC limit 200", (error, res) => {
         if (error) {
           console.log("error: ", error);
           result(null, error);
